@@ -1,0 +1,17 @@
+{
+  "name": "aws-sns-post-parser",
+  "version": "1.0.0",
+  "description": "Parse AWS Simple Notification Service (SNS) messages locally",
+  "main": "index.js",
+  "repository": "git@github.com:joshlarsen/aws-sns-post-parser.git",
+  "author": "Josh Larsen <jlarsen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2"
+  }
+}
