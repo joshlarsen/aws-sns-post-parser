@@ -13,10 +13,9 @@ Run an ngrok tunnel:
 ```bash
 $ ngrok http 8000
 
-ngrok by @inconshreveable                                                                                                   (Ctrl+C to quit)
+ngrok by @inconshreveable                                                          
                                                                                                                                             
 Session Status                online                                                                                                        
-Account                        (Plan: Pro)                                                                                                  
 Version                       2.3.35                                                                                                        
 Region                        United States (us)                                                                                            
 Web Interface                 http://127.0.0.1:4040                                                                                         
@@ -39,3 +38,8 @@ $ nodemon
 SNS post parser listening on port 8000
 ```
 
+Publish a message to your SNS topic:
+
+```bash
+{ message: 'test message' }
+```
