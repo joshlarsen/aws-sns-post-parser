@@ -12,7 +12,9 @@ app.use(function(req, res) {
   let json = JSON.parse(req.body)
   let message = JSON.parse(json.Message)
 
-  if (message) console.log(message)
+  // default depth is 2, we want at least 3 to print contents
+  // of resources array in message.detail.resources
+  if (message) console.dir(message, { depth: 3 })
   res.end()
 })
 
